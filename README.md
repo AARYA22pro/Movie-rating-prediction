@@ -94,8 +94,7 @@ Feature Importance Bar Chart
 SHAP Summary Plot
 
 🚀 How to Run
-bash
-Copy code
+
 pip install pandas numpy matplotlib seaborn scikit-learn shap
 Place your IMDb Movies India.csv file in the specified path and run the Python script.
 
@@ -111,3 +110,20 @@ Classification:
 Accuracy and F1 Score comparison
 
 SHAP plot highlighting top predictive features
+
+ Insights
+Genre and Director have high influence on movie ratings.
+
+Random Forest performs consistently well across both tasks.
+
+SHAP reveals individual feature contributions to model decisions.
+
+📌 Future Improvements
+Incorporate more features like Votes, Year, Language
+
+Hyperparameter tuning for models
+
+Use deep learning models for improved prediction
+
+Deploy as a web app using Streamlit or Flask
+
