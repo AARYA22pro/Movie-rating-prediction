@@ -1,129 +1,130 @@
- Build a model that predicts the rating of a movie based on
- features like genre, director, and actors. You can use regression
- techniques to tackle this problem.
- The goal is to analyze historical movie data and develop a model
- that accurately estimates the rating given to a movie by users or
- critics.
- Movie Rating Prediction project enables you to explore data
- analysis, preprocessing, feature engineering, and machine
- learning modeling techniques. It provides insights into the factors
- that influence movie ratings and allows you to build a model that
- can estimate the ratings of movies accurately
- This project uses machine learning techniques to predict the rating of Indian movies based on features like genre, director, actors, and runtime. Both regression and classification models are implemented to predict numeric ratings and classify them into categories (Low, Medium, High).
+1. Build a model that predicts the rating of a movie based on
+   features like genre, director, and actors. You can use regression
+   techniques to tackle this problem.
+2. The goal is to analyze historical movie data and develop a model
+   that accurately estimates the rating given to a movie by users or
+   critics.
+3. Movie Rating Prediction project enables you to explore data
+   analysis, preprocessing, feature engineering, and machine
+   learning modeling techniques. It provides insights into the factors
+   that influence movie ratings and allows you to build a model that
+   can estimate the ratings of movies accurately
 
 📌 Features
-Regression using Random Forest Regressor
 
-Classification using:
+1.Regression using Random Forest Regressor
 
-Logistic Regression
+2.Classification using:
 
-Random Forest Classifier
+        *Logistic Regression
 
-Support Vector Machine (SVM)
+        *Random Forest Classifier
 
-Data preprocessing, encoding, and visualization
+        *Support Vector Machine (SVM)
 
-Model evaluation using:
+3.Data preprocessing, encoding, and visualization
 
-Accuracy
+4.Model evaluation using:
 
-F1 Score
+        *Accuracy
 
-Confusion Matrix
+        *F1 Score
 
-Feature importance via:
+        *Confusion Matrix
 
-Random Forest
+5.Feature importance via:
 
-SHAP (SHapley Additive exPlanations)
+        *Random Forest
+
+        *SHAP (SHapley Additive exPlanations)
 
 🧠 Objective
+
 To analyze historical IMDb movie data and build predictive models that:
 
-Estimate movie ratings (numerical regression)
+        *Estimate movie ratings (numerical regression)
 
-Classify movies into Low / Medium / High rating categories
+        *Classify movies into Low / Medium / High rating categories
 
 📂 Dataset
+
 File: IMDb Movies India.csv
 
 Columns Used:
 
-Genre
+ 1.Genre
 
-Director
+ 2.Director
 
-Actors
+ 3.Actors
 
-Runtime
+ 4.Runtime
 
-Rating
+ 5.Rating
 
 Dataset should be placed in the /content folder or adjust file_path accordingly.
 
 📊 Algorithms Used
-Task	Algorithms
+
+Task	        Algorithms
 Regression	Random Forest Regressor
 Classification	Logistic Regression, Random Forest, SVM
 
 🧪 Evaluation Metrics
-R² Score
 
-RMSE
+        *R² Score
 
-Accuracy
+        *RMSE
 
-F1 Score
+        *Accuracy
 
-Confusion Matrix
+        *F1 Score
 
-Feature Importance
+        *Confusion Matrix
 
-SHAP Summary Plot
 
 📈 Visualizations
-Actual vs Predicted Ratings
 
-Confusion Matrices
+        1.Actual vs Predicted Ratings
 
-Accuracy & F1 Score Comparison
+        2.Confusion Matrices
 
-Feature Importance Bar Chart
-
-SHAP Summary Plot
+        3.Accuracy & F1 Score Comparison
 
 🚀 How to Run
 
-pip install pandas numpy matplotlib seaborn scikit-learn shap
+        *pip install pandas numpy matplotlib seaborn scikit-learn shap
 Place your IMDb Movies India.csv file in the specified path and run the Python script.
 
 📎 Sample Output
-Regression:
 
-R² Score: ~0.65
+        1.Regression:
 
-RMSE: ~0.80
+                *R² Score: ~0.65
 
-Classification:
+                *RMSE: ~0.80
 
-Accuracy and F1 Score comparison
+        2.Classification:
 
-SHAP plot highlighting top predictive features
+                *Accuracy and F1 Score comparison
 
- Insights
-Genre and Director have high influence on movie ratings.
+                *SHAP plot highlighting top predictive features
 
-Random Forest performs consistently well across both tasks.
+🧠 Insights
+ 
+        *Genre and Director have high influence on movie ratings.
 
-SHAP reveals individual feature contributions to model decisions.
+        *Random Forest performs consistently well across both tasks.
+
+        *SHAP reveals individual feature contributions to model decisions.
 
 📌 Future Improvements
-Incorporate more features like Votes, Year, Language
 
-Hyperparameter tuning for models
+        *Incorporate more features like Votes, Year, Language
 
-Use deep learning models for improved prediction
+        *Hyperparameter tuning for models
 
-Deploy as a web app using Streamlit or Flask
+        *Use deep learning models for improved prediction
+
+        *Deploy as a web app using Streamlit or Flask
 
